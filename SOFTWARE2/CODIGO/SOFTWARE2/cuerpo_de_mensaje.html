@@ -1,0 +1,38 @@
+<table width="700" border="0" align="center" cellpadding="2" cellspacing="2">
+	<tr bgcolor="#B8D6AX">
+		<td width="25%" valign="top">
+			<font face="Verdana,Arial,Helvetica,sans-serif" size="2">
+				<b><a name="<?=$id?>"><?=$autor?></a></b> <br>
+				Email : <a href="mailto:<?$email?>"><?=$email?></a> <br>
+				Enviado el : <?=$enviado?>
+			</font>
+		</td>
+		<td>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr >
+					<td>
+						<strong>
+							<font face="Verdana,Arial,Helvetica,sans-serif" size="2">
+								<?=$titulo?>
+							</font>
+						</strong>
+					</td>
+					<td width="10%" align="right">
+						<font face="Verdana,Arial,Helvetica,sans-serif" size="2">
+							[<a href="respuesta.php?id=<?=$id?>&citar=1">CITAR</a>]
+						</font>
+					</td>
+				</tr>
+			</table>
+
+			<hr align="center" width="100%" size="2" noshade>
+
+			<font face="Verdana,Arial,Helvetica,sans-serif" size="2">
+				<?=$mensaje?>  
+			</font>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="5"></td>
+	</tr>
+</table>

@@ -1,0 +1,438 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+}
+
+.contenedor{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header{
+background-image: url("imagenes/header-bg-02.jpg");
+
+
+}
+
+header .contenedor{
+	background-image: url("imagenes/header-bg.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;	
+	width: 960px;
+	height: 255px;	
+}
+
+.contenedor #logo{
+	width: 300px;
+	height: 60px;
+}
+.contenedor #logo p{
+	color: white;
+	float: left;
+	font-size: 12px;
+	margin-left: 40px;
+	margin-top: 32px;
+	padding: 0px 0px 0px 5px;
+	border-left: solid 1px #575F64;
+}
+
+.contenedor #logo #img_logo{
+	float: left;
+	width: 120px;
+	margin-top: 30px;
+}
+.contenedor #logo #img_logo img{
+	height: 20px;	
+}
+
+nav {
+	float: left;
+	width: 500px;
+	margin: -53px 0px 0px 550px;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	color: #415561;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 5px 8px 5px 8px;
+}
+
+
+#destacado .contenedor #descripcion {
+	width: 450px;
+	color: white;
+	float: left;
+	margin: -180px 0px 0px 0px;
+}
+#destacado .contenedor #descripcion p{
+	padding-top: 10px;
+	width: 420px;	
+}
+#destacado .contenedor #descripcion a{
+	background-image: url("imagenes/btn-bg-01.png");
+	color: #AD8C22;
+	font-weight: bold;
+	padding: 10px 47px 10px 47px;
+	text-decoration: none;
+	float: left;
+	margin-top: 25px;	
+	border-radius: 8px;
+}
+
+#destacado .contenedor #descripcion a:last-child{
+	margin-left: 20px;
+}
+
+#destacado .contenedor #img_descrip{
+	float: left;
+	margin: -170px 0px 0px 480px;
+}
+
+#destacado .contenedor #img_descrip img{
+	width: 450px;
+	height: 250px;
+}
+
+#primario{
+	float: left;
+	width: 460px;
+}
+
+#primario #main-service{
+	width: 460px;
+	height: 200px;		
+}
+
+ #sep{
+	float: left;
+	position: relative;
+	top: 30px;
+}
+ #sep img{
+	width: 450px;
+	height: 80px;
+}
+
+
+#primario #main-service #img_main_service{
+	width: 200px;
+	float: left;
+	margin-top: -55px;
+
+}
+
+#primario #main-service #tex_main_service{
+	width: 260px;
+	float: left;
+	margin-top: -55px;
+	color: #535350;
+
+}
+
+#primario #main-service #tex_main_service p{
+	padding: 8px 0 0 0;
+}
+#primario #main-service #tex_main_service p:first-child{
+	padding: 20px 0 0 0;
+}
+
+
+#primario  #blog{
+	width: 460px;
+	height: 300px;	
+	
+	margin-top: 20px;
+}
+
+#primario  #blog article{
+	width: 460px;
+	float: left;
+	padding-top: 15px;
+}
+
+#primario  #blog .blog_img{
+	float: left;
+}
+
+#primario  #blog .blog_text{
+	width: 300px;
+	float: left;
+	margin-left: 15px;
+}
+
+#secundario{
+	width: 460px;
+	float: left;
+}
+
+#secundario section{
+	width: 450px;
+	margin-left: 10px;
+}
+#secundario section:last-child{
+	margin-top: 50px;
+}
+
+#secundario section p{
+	padding-top: 18px;
+
+}
+.imagen{
+	padding: 5px;
+	background-color: rgb(199, 199, 199);
+}
+
+
+#secundario section ul li{
+	float: left;
+	list-style: none;
+	margin-top: 5px;
+	margin-left: 12px;
+	
+}
+
+#pre-footer{
+	overflow: hidden;
+	background-color: rgb(15, 14, 14);
+	height: 300px;
+	width: 100%;
+	border-top: 15px solid gray;
+}
+
+
+#main-options{
+	width: 1200px;
+	overflow: hidden;
+}
+#main-options li{
+	float: left;
+}
+
+#pre-footer #main-options h4{
+	font-weight: bold;
+	color: #9D9797;
+	padding: 30px 0px 0px 0px
+}
+
+.sub-options{
+	height: 200px;
+	width: 165px;
+}
+
+.sub-options li{	
+width: 170px;
+padding: 5px 5px 5px 0px;
+	
+}
+
+.sub-options li a{
+	text-decoration: none;
+	color: rgb(71, 66, 66);
+	font-size: 12px;
+
+}
+
+
+#pre-footer .contenedor #contact{
+width: 370px;
+overflow: hidden;
+}
+
+#pre-footer .contenedor #contact label{
+	color: white;	
+	margin-bottom: 10px;
+}
+
+#pre-footer .contenedor #contact input[type="text"]{
+	margin-top: 10px;
+	padding: 0px 40px 0px 0px;
+	border-radius: 10px;
+	width: 130px;
+	height: 20px;
+}
+
+#pre-footer .contenedor #contact input[type="email"]{
+	margin-top: 10px;
+	padding: 0px 40px 0px 0px;
+	border-radius: 10px;
+	width: 130px;
+}
+
+#pre-footer .contenedor #contact .form{
+	width: 150px;
+	float: left;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+.message{
+	padding: 5px;
+	margin-top: 5px;
+	clear: both;
+}
+
+#message{
+	display: block;
+}
+
+textarea{
+	border-radius: 10px;
+}
+
+input[type="submit"]{
+	float: right;
+	background-color: rgba(58, 58, 219, 0.61);
+	color: #494242;
+	width: 100px;
+	border-radius: 10px;
+	border-color: transparent;
+	position: relative;
+	right: 40px;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+
+/*FOOTER*/
+
+footer{
+	background-color: black;
+	height: 50px;
+}
+
+footer div{	
+	color: #777575;
+	height: 100px;
+	font-size: 11px;
+	text-align: center;
+
+}
+
+
+footer div #left{	
+	width: 500px;
+	float: left;
+}
+footer div #left img{
+	margin-top: 18px;
+	float: left;
+}
+footer div #left p{
+	float: left;
+	margin-top: 17px;
+	padding-left: 18px;
+	padding-right: 10px;
+}
+footer div #left p:last-child{
+	border-left: solid 1px #777575;
+	padding-left: 12px;
+}
+
+footer div #left p a{
+	color: #777575;
+}
+footer div #right{
+	float: left;
+	margin-left: 170px;
+	margin-top: 17px;
+}
+footer div #right p a{
+	color: #777575;
+}
+
+
+.contenedor #primario p a{
+	background-image: url("imagenes/btn-bg-01.png");
+	color: #AD8C22;
+	font-weight: bold;
+	padding: 10px 5px 10px 5px;
+	text-decoration: none;
+	float: left;
+	margin-top: 25px;	
+	border-radius: 8px;
+}
+#log{
+
+	width: 900px;
+	font-family: verdana;
+	text-align: center;
+}
+
+#log label{
+	background: rgb(223, 223, 223);
+	padding: 3px 22px 9px 27px;
+	border-radius: 15px;
+	margin-top: 45px;
+	font-size: 17px;
+	color: white;
+	font-weight: bold;
+}
+
+#cuerpo{
+	width: 900px;
+	overflow: hidden;
+	margin-top: 50px;
+	font-family: verdana;
+}
+
+#cuerpo1{
+	width: 400px;
+	float: left;
+}
+
+
+#cuerpo2{
+	width: 400px;
+	float: right;
+}
+
+#cuerpo label{
+	text-align: right;
+	display: inline-block;
+	width: 112px;
+	background: rgb(168, 168, 218);
+	border-radius: 10px;
+	color: white;	
+	font-size: 15px;
+}
+
+#respuestaTestFinal {
+background: rgb(200, 200, 248);
+width: 515px;
+height: 42px;
+padding: 15px;
+color: white;
+border-radius: 21px;
+}
+
+#respuestaTestFinal_Pregunta  {
+background: rgb(159, 168, 233);
+color: white;
+}
+
+#divisionPreguntas{
+width: 460px;
+float: right;
+}
+#divisionTexto{
+	width: 460px;
+float: left;
+}
+
+#parrafoMedico{
+	background: rgb(166, 193, 250);
+font-size: -webkit-xxx-large;
+color: white;
+height: 37px;
+padding: 19px;
+text-align: justify;
+margin-top: 46px;;
+}
